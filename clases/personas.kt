@@ -14,11 +14,12 @@ class Persona(var nombre:String, var apellido:String)
    fun main()
    {
     var persona = Persona("Geronimo","Navas")
-    var nueva = Persona()
-    nueva.nombre = "Tony"
-    nueva.apellido = "Olivas"
+    // var nueva = Persona()
+    // nueva.nombre = "Tony"
+    // nueva.apellido = "Olivas"
 
     println(persona.nombre)
-    println(nueva.nombre)
+    println (persona.apellido)
+    // println(nueva.nombre)
    }
    
